@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Portfolio Section */
+h1 {
+    margin: 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.project {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+/* Feedback Form */
+.feedback-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.feedback-form input, 
+.feedback-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.feedback-form button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
